@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Singh Aviation - Premium Private Jet Charter | Empty Leg Flights</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* {
+scroll-behavior: smooth;
+}
+
+.font-playfair {
+font-family: 'Playfair Display', serif;
+}
+
+.font-inter {
+font-family: 'Inter', sans-serif;
+}
+
+.gradient-bg {
+background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 50%, #312e81 100%);
+}
+
+.gradient-overlay {
+background: linear-gradient(rgba(30, 64, 100, 0.9), rgba(49, 46, 100, 0.9));
+}
+
+.gold-accent {
+color: #d4af37;
+}
+
+.bg-gold {
+background-color: #d4af37;
+}
+
+.border-gold {
+border-color: #d4af37;
+}
+
+.hover-gold:hover {
+background-color: #b8941f;
+}
+
+.card-shadow {
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hero-bg {
+background-image: url('https://images.unsplash.com/photo-1540962351504-03099e0a754b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.jet-card {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jet-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.section-padding {
+padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+.section-padding {
+padding: 50px 0;
+}
+}
+
+.animate-fade-in {
+animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(30px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    left: 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.whatsapp_icon {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+</style>
+</head>
+<body class="font-inter text-gray-800">
+<!-- Navigation -->
+<nav class="fixed w-full z-50 bg-white shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <div class="flex-shrink-0 flex items-center">
+          <i class="fas fa-plane text-3xl text-blue-800 mr-3"></i>
+          <span class="font-playfair text-2xl font-bold text-blue-800">Singh Aviation</span>
+        </div>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#home" class="text-gray-700 hover:text-blue-800 transition duration-300">Home</a>
+        <a href="#about" class="text-gray-700 hover:text-blue-800 transition duration-300">About</a>
+        <a href="#services" class="text-gray-700 hover:text-blue-800 transition duration-300">Services</a>
+        <a href="#empty-legs" class="text-gray-700 hover:text-blue-800 transition duration-300">Empty Legs</a>
+        <a href="#fleet" class="text-gray-700 hover:text-blue-800 transition duration-300">Fleet</a>
+        <a href="#contact" class="bg-gold text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition duration-300">Book Now</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-btn" class="text-gray-700 focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+    <a href="#home" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a>
+    <a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About</a>
+    <a href="#services" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Services</a>
+    <a href="#empty-legs" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Empty Legs</a>
+    <a href="#fleet" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Fleet</a>
+    <a href="#contact" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Book Now</a>
+  </div>
+</nav>
+
+<!-- Script to toggle mobile menu -->
+<script>
+  document.getElementById('menu-btn').addEventListener('click', function () {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+
+<!-- Hero Section -->
+<section id="home" class="hero-bg h-screen flex items-center relative">
+<div class="gradient-overlay absolute inset-0"></div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+<div class="animate-fade-in">
+<h1 class="font-playfair text-5xl md:text-7xl font-bold mb-6">
+Elevate Your Journey
+</h1>
+<p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+Experience luxury, privacy, and convenience with Singh Aviation premium private jet charter services.
+</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="#contact" class="bg-gold text-white px-8 py-4 rounded-full text-lg font-semibold hover-gold transition duration-300 inline-flex items-center justify-center">
+<i class="fas fa-calendar-alt mr-2"></i>
+Charter Your Flight
+</a>
+<a href="#empty-legs" class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-800 transition duration-300 inline-flex items-center justify-center">
+<i class="fas fa-percent mr-2"></i>
+Empty Legs
+</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section-padding bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-bold text-blue-800 mb-6">About Singh Aviation</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Your premier partner in luxury private aviation, delivering exceptional service and unparalleled comfort.Singh Aviation is a premier luxury aviation brand offering bespoke private jet experiences across India and abroad.
+We specialize in charter flights, empty leg deals, and on-demand air travel designed for comfort, speed, and exclusivity.
+Our mission is to redefine business and leisure travel with unmatched service, safety, and sophistication.
+
+</p>
+</div>
+
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div>
+<img src="https://i.postimg.cc/mghQKCcF/Whats-App-Image-2025-11-12-at-16-07-38.jpg" alt="Private Jet Interior" class="rounded-lg shadow-xl w-full">
+
+
+
+</div>
+<div>
+<h3 class="font-playfair text-3xl font-bold text-blue-800 mb-6">Excellence in Every Flight</h3>
+<p class="text-lg text-gray-700 mb-6">
+At Singh Aviation, we understand that your time is invaluable and your journey should be extraordinary. Since our inception, we have been committed to providing the highest standards of luxury, safety, and personalized service in private aviation.
+</p>
+<p class="text-lg text-gray-700 mb-8">
+Our team of aviation professionals works tirelessly to ensure every aspect of your travel experience exceeds expectations, from initial booking to final destination.
+</p>
+
+<div class="grid grid-cols-2 gap-6">
+<div class="text-center">
+<div class="text-3xl font-bold gold-accent mb-2">500+</div>
+<div class="text-gray-600">Successful Flights</div>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold gold-accent mb-2">24/7</div>
+<div class="text-gray-600">Concierge Service</div>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold gold-accent mb-2">100%</div>
+<div class="text-gray-600">Safety Record</div>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold gold-accent mb-2">15+</div>
+<div class="text-gray-600">Aircraft Types</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="section-padding">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-bold text-blue-800 mb-6">Our Services</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Comprehensive private aviation solutions tailored to your unique travel needs
+</p>
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white p-8 rounded-lg card-shadow hover:shadow-xl transition duration-300">
+<div class="text-4xl gold-accent mb-6">
+<i class="fas fa-clock"></i>
+</div>
+<h3 class="text-2xl font-bold text-blue-800 mb-4">On-Demand Charter</h3>
+<p class="text-gray-700 mb-4">
+Flexible scheduling and instant availability for your urgent travel needs. Book when you need it, fly when you want it.
+</p>
+<ul class="text-gray-600 space-y-2">
+<li><i class="fas fa-check gold-accent mr-2"></i>2-hour notice minimum</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Global destinations</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>24/7 availability</li>
+</ul>
+</div>
+
+<div class="bg-white p-8 rounded-lg card-shadow hover:shadow-xl transition duration-300">
+<div class="text-4xl gold-accent mb-6">
+<i class="fas fa-briefcase"></i>
+</div>
+<h3 class="text-2xl font-bold text-blue-800 mb-4">Business Travel</h3>
+<p class="text-gray-700 mb-4">
+Executive travel solutions designed for the modern business professional. Maximize productivity while minimizing travel time.
+</p>
+<ul class="text-gray-600 space-y-2">
+<li><i class="fas fa-check gold-accent mr-2"></i>In-flight WiFi & office</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Corporate accounts</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Meeting facilitation</li>
+</ul>
+</div>
+
+<div class="bg-white p-8 rounded-lg card-shadow hover:shadow-xl transition duration-300">
+<div class="text-4xl gold-accent mb-6">
+<i class="fas fa-umbrella-beach"></i>
+</div>
+<h3 class="text-2xl font-bold text-blue-800 mb-4">Leisure & Vacation</h3>
+<p class="text-gray-700 mb-4">
+Transform your vacation into a luxurious experience from departure to arrival. Skip the hassle, embrace the luxury.
+</p>
+<ul class="text-gray-600 space-y-2">
+<li><i class="fas fa-check gold-accent mr-2"></i>Resort partnerships</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Family-friendly service</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Destination planning</li>
+</ul>
+</div>
+
+<div class="bg-white p-8 rounded-lg card-shadow hover:shadow-xl transition duration-300">
+<div class="text-4xl gold-accent mb-6">
+<i class="fas fa-users"></i>
+</div>
+<h3 class="text-2xl font-bold text-blue-800 mb-4">Group Charter</h3>
+<p class="text-gray-700 mb-4">
+Perfect for corporate events, family gatherings, or group celebrations. Travel together in comfort and style.
+</p>
+<ul class="text-gray-600 space-y-2">
+<li><i class="fas fa-check gold-accent mr-2"></i>Up to 19 passengers</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Event coordination</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Custom itineraries</li>
+</ul>
+</div>
+
+<div class="bg-white p-8 rounded-lg card-shadow hover:shadow-xl transition duration-300">
+<div class="text-4xl gold-accent mb-6">
+<i class="fas fa-concierge-bell"></i>
+</div>
+<h3 class="text-2xl font-bold text-blue-800 mb-4">24/7 Concierge</h3>
+<p class="text-gray-700 mb-4">
+Complete travel support from ground transportation to luxury accommodations. We handle the details, you enjoy the journey.
+</p>
+<ul class="text-gray-600 space-y-2">
+<li><i class="fas fa-check gold-accent mr-2"></i>Ground transportation</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Hotel reservations</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Dining arrangements</li>
+</ul>
+</div>
+
+<div class="bg-white p-8 rounded-lg card-shadow hover:shadow-xl transition duration-300">
+<div class="text-4xl gold-accent mb-6">
+<i class="fas fa-shield-alt"></i>
+</div>
+<h3 class="text-2xl font-bold text-blue-800 mb-4">Safety & Security</h3>
+<p class="text-gray-700 mb-4">
+Uncompromising safety standards with experienced pilots and meticulously maintained aircraft. Your safety is our priority.
+</p>
+<ul class="text-gray-600 space-y-2">
+<li><i class="fas fa-check gold-accent mr-2"></i>Certified pilots</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Regular maintenance</li>
+<li><i class="fas fa-check gold-accent mr-2"></i>Security protocols</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Empty Leg & Ferry Leg Section -->
+<section id="empty-legs" class="section-padding bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-bold text-blue-800 mb-6">Empty Leg & Ferry Flights</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Discover incredible savings on luxury private jet travel with our Empty Leg and Ferry Flight opportunities
+</p>
+</div>
+
+<div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+<div>
+<img src="https://i.postimg.cc/bwwHWjQB/IMG_20251111_WA0019_1.jpg" alt="Private Jet Interior" class="rounded-lg shadow-xl w-full">
+
+
+
+</div>
+<div>
+<div class="bg-white p-8 rounded-lg card-shadow">
+<div class="text-5xl gold-accent mb-4">
+<i class="fas fa-percent"></i>
+</div>
+<h3 class="font-playfair text-3xl font-bold text-blue-800 mb-4">Save Up to 75%</h3>
+<p class="text-lg text-gray-700 mb-6">
+Take advantage of significantly reduced rates on luxury private jet travel through our Empty Leg and Ferry Flight program.
+</p>
+<div class="space-y-4">
+<div class="flex items-start">
+<i class="fas fa-plane text-blue-800 mt-1 mr-3"></i>
+<div>
+<strong class="text-blue-800">Empty Leg Flights:</strong> One-way flights when aircraft return empty to base or reposition for the next charter
+</div>
+</div>
+<div class="flex items-start">
+<i class="fas fa-route text-blue-800 mt-1 mr-3"></i>
+<div>
+<strong class="text-blue-800">Ferry Flights:</strong> Aircraft repositioning flights available at significantly reduced rates
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="grid md:grid-cols-3 gap-8 mb-12">
+<div class="bg-white p-6 rounded-lg card-shadow text-center">
+<div class="text-3xl gold-accent mb-4">
+<i class="fas fa-clock"></i>
+</div>
+<h4 class="text-xl font-bold text-blue-800 mb-3">Last-Minute Availability</h4>
+<p class="text-gray-700">
+Flexible travelers can access luxury flights with short notice, typically 24-72 hours in advance.
+</p>
+</div>
+
+<div class="bg-white p-6 rounded-lg card-shadow text-center">
+<div class="text-3xl gold-accent mb-4">
+<i class="fas fa-tags"></i>
+</div>
+<h4 class="text-xl font-bold text-blue-800 mb-3">Significant Savings</h4>
+<p class="text-gray-700">
+Enjoy the same luxury experience at a fraction of the cost, with savings of 50-75% off regular charter rates.
+</p>
+</div>
+
+<div class="bg-white p-6 rounded-lg card-shadow text-center">
+<div class="text-3xl gold-accent mb-4">
+<i class="fas fa-bell"></i>
+</div>
+<h4 class="text-xl font-bold text-blue-800 mb-3">Instant Notifications</h4>
+<p class="text-gray-700">
+Subscribe to our Empty Leg alerts and be the first to know about available flights on your preferred routes.
+</p>
+</div>
+</div>
+
+<div class="bg-blue-800 text-white p-8 rounded-lg">
+<h3 class="font-playfair text-2xl font-bold mb-4 text-center">Popular Empty Leg Routes</h3>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+<div class="bg-blue-700 p-4 rounded">
+<i class="fas fa-arrow-right gold-accent mb-2"></i>
+<div class="font-semibold">DELHI ↔ MUMBAI</div>
+<div class="text-sm text-blue-200">Frequent availability</div>
+</div>
+<div class="bg-blue-700 p-4 rounded">
+<i class="fas fa-arrow-right gold-accent mb-2"></i>
+<div class="font-semibold">DELHI ↔ KOLKATA</div>
+<div class="text-sm text-blue-200">Month specials</div>
+</div>
+<div class="bg-blue-700 p-4 rounded">
+<i class="fas fa-arrow-right gold-accent mb-2"></i>
+<div class="font-semibold">UDAIPUR ↔ DELHI</div>
+<div class="text-sm text-blue-200">Tourism routes</div>
+</div>
+<div class="bg-blue-700 p-4 rounded">
+<i class="fas fa-arrow-right gold-accent mb-2"></i>
+<div class="font-semibold">DUBAI ↔ DELHI </div>
+<div class="text-sm text-blue-200">International savings</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Fleet Section -->
+<section id="fleet" class="section-padding">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-bold text-blue-800 mb-6">Our Premium Fleet</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Choose from our diverse selection of luxury aircraft, each maintained to the highest standards
+</p>
+</div>
+
+<!-- Light Jets -->
+<div class="mb-16">
+<h3 class="font-playfair text-3xl font-bold text-blue-800 mb-8 text-center">Light Jets (4-6 Passengers)</h3>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://images.aircharterservice.com/global/aircraft-guide/private-charter/cessna-citation-cj3-1.jpg" alt="Cessna Citation CJ3+" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Cessna Citation CJ3+</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 6</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 2,040 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 416 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Advanced avionics, spacious cabin</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://cdn.privatejetcardcomparisons.com/uploads/phenom300_flexjet.jpeg" alt="Embraer Phenom 300" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Embraer Phenom 300</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 6</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 2,010 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 453 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Oval windows, premium interior</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://images.aircharterservice.com/global/aircraft-guide/private-charter/hawker-beechcraft-premier-1-1a.jpg" alt="Beechcraft Premier 1A" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Beechcraft Premier 1A</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 6</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 1,460 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 426 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Stand-up cabin, large windows</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Mid-Size Jets -->
+<div class="mb-16">
+<h3 class="font-playfair text-3xl font-bold text-blue-800 mb-8 text-center">Mid-Size Jets (6-8 Passengers)</h3>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://i.postimg.cc/xdby1vJg/Whats-App-Image-2025-11-13-at-19-03-51.jpg" alt="Hawker 800XP" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Hawker 800XP</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 8</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 2,930 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 447 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Spacious cabin, excellent range</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://i.postimg.cc/MKJsVsrC/Whats-App-Image-2025-11-12-at-16-49-53.jpg" alt="Private Jet Interior" class="rounded-lg shadow-xl w-full">
+
+
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Cessna Citation XLS+</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 8</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 2,100 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 441 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Reliable performance, comfortable seating</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://i.postimg.cc/QdzBRz5X/Whats-App-Image-2025-11-12-at-17-15-49.jpg" alt="Learjet 60XR" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Learjet 60XR</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 7</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 2,405 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 465 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> High speed, proven reliability</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Heavy Jets -->
+<div class="mb-16">
+<h3 class="font-playfair text-3xl font-bold text-blue-800 mb-8 text-center">Heavy Jets (8-14 Passengers)</h3>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://assets.gulfstream.aero/thedotcom/images/aircraft/g280/d_g280_a_mkt_00765_PROD.jpg" alt="Gulfstream G280" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Gulfstream G280</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 10</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 3,600 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 482 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Ultra-quiet cabin, advanced systems</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://images.aircharterservice.com/global/aircraft-guide/private-charter/bombardier-challenger-350.jpg" alt="Bombardier Challenger 350" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Bombardier Challenger 350</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 10</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 3,200 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 470 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Widest-in-class cabin, large windows</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://images.aircharterservice.com/global/aircraft-guide/private-charter/dassault-falcon-2000ex-.jpg" alt="Dassault Falcon 2000" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Dassault Falcon 2000</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 10</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 3,350 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 482 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Fuel efficient, comfortable layout</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Ultra-Long Range Jets -->
+<div>
+<h3 class="font-playfair text-3xl font-bold text-blue-800 mb-8 text-center">Ultra-Long Range Jets (12-19 Passengers)</h3>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://i.postimg.cc/WbPKL4Kc/Whats-App-Image-2025-11-13-at-17-39-17.jpg" alt="Gulfstream G650" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Gulfstream G650</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 14</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 7,000 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 516 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Fastest civilian aircraft, panoramic windows</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://globaljet.aero/sites/default/files/2022-09/Bombardier%20Global%206000_LX-NST_Exterior_4%20%5B1600x1200%5D.JPG" alt="Bombardier Global 6000" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Bombardier Global 6000</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 13</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 6,000 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 488 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Four distinct living spaces, bedroom suite</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://globaljet.aero/sites/default/files/2021-01/DASSAULT%20FALCON%207X_LX-FDA_Exterior_1_1.JPG" alt="Dassault Falcon 7X" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Dassault Falcon 7X</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 12</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 5,950 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 488 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Tri-jet design, exceptional performance</div>
+</div>
+</div>
+</div>
+
+<div class="jet-card bg-white rounded-lg card-shadow overflow-hidden">
+<img src="https://i.postimg.cc/Rh0BcZzw/Whats-App-Image-2025-11-12-at-16-07-25.jpg" alt="Dassault Falcon 8X" class="w-full h-48 object-cover">
+<div class="p-6">
+<h4 class="text-xl font-bold text-blue-800 mb-2">Dassault Falcon 8X</h4>
+<div class="space-y-2 text-gray-700">
+<div><i class="fas fa-users gold-accent mr-2"></i><strong>Passengers:</strong> 14</div>
+<div><i class="fas fa-route gold-accent mr-2"></i><strong>Range:</strong> 6,450 nm</div>
+<div><i class="fas fa-tachometer-alt gold-accent mr-2"></i><strong>Speed:</strong> 488 kts</div>
+<div><i class="fas fa-star gold-accent mr-2"></i><strong>Features:</strong> Tri-jet design, ultra-long range, quiet cabin</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Why Choose Us Section -->
+<section class="section-padding bg-gradient-to-r from-blue-800 to-blue-900 text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-bold mb-6">Why Choose Singh Aviation</h2>
+<p class="text-xl max-w-3xl mx-auto">
+Experience the difference that comes with uncompromising standards and personalized service
+</p>
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="text-center">
+<div class="text-5xl gold-accent mb-4">
+<i class="fas fa-shield-alt"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Safety First</h3>
+<p class="text-blue-100">
+Rigorous maintenance schedules, certified pilots, and comprehensive safety protocols ensure your peace of mind.
+</p>
+</div>
+
+<div class="text-center">
+<div class="text-5xl gold-accent mb-4">
+<i class="fas fa-user-tie"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Expert Pilots</h3>
+<p class="text-blue-100">
+Our experienced pilots average over 5,000 flight hours and undergo continuous training and certification.
+</p>
+</div>
+
+<div class="text-center">
+<div class="text-5xl gold-accent mb-4">
+<i class="fas fa-gem"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Luxury Amenities</h3>
+<p class="text-blue-100">
+Premium interiors, gourmet catering, high-speed WiFi, and personalized service define your experience.
+</p>
+</div>
+
+<div class="text-center">
+<div class="text-5xl gold-accent mb-4">
+<i class="fas fa-calendar-check"></i>
+</div>
+<h3 class="text-xl font-bold mb-3">Flexible Scheduling</h3>
+<p class="text-blue-100">
+24/7 availability with as little as 2 hours notice. Your schedule is our priority, not the other way around.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section-padding">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-playfair text-4xl md:text-5xl font-bold text-blue-800 mb-6">Book Your Flight</h2>
+<p class="text-xl text-gray-600 max-w-3xl mx-auto">
+Ready to experience luxury aviation? Contact us for a personalized quote or to book your next flight
+</p>
+</div>
+
+<div class="grid lg:grid-cols-2 gap-12 items-start">
+<div>
+<div class="bg-white p-8 rounded-lg card-shadow">
+<h3 class="font-playfair text-2xl font-bold text-blue-800 mb-6">Request a Quote</h3>
+<form class="space-y-6">
+<div class="grid md:grid-cols-2 gap-4">
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">First Name *</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Last Name *</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+</div>
+</div>
+
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Email Address *</label>
+<input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+</div>
+
+<div class="grid md:grid-cols-2 gap-4">
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Departure City *</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Destination City *</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+</div>
+</div>
+
+<div class="grid md:grid-cols-2 gap-4">
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Departure Date *</label>
+<input type="date" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+</div>
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Passengers *</label>
+<select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+<option value="">Select passengers</option>
+<option value="1-2">1-2 Passengers</option>
+<option value="3-4">3-4 Passengers</option>
+<option value="5-8">5-8 Passengers</option>
+<option value="9-12">9-12 Passengers</option>
+<option value="13+">13+ Passengers</option>
+</select>
+</div>
+</div>
+
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Flight Type</label>
+<select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+<option value="">Select flight type</option>
+<option value="one-way">One Way Charter</option>
+<option value="round-trip">Round Trip Charter</option>
+<option value="empty-leg">Empty Leg</option>
+<option value="multi-leg">Multi-Leg Trip</option>
+</select>
+</div>
+
+<div>
+<label class="block text-sm font-semibold text-gray-700 mb-2">Additional Requirements</label>
+<textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Special requests, catering preferences, ground transportation, etc."></textarea>
+</div>
+
+<button type="submit" class="w-full bg-gold text-white py-3 px-6 rounded-lg font-semibold hover-gold transition duration-300">
+<i class="fas fa-paper-plane mr-2"></i>
+Request Quote
+</button>
+</form>
+</div>
+</div>
+
+<div class="space-y-8">
+<div class="bg-blue-800 text-white p-8 rounded-lg">
+<h3 class="font-playfair text-2xl font-bold mb-6">Contact Information</h3>
+
+<div class="space-y-4">
+<div class="flex items-center">
+<i class="fas fa-envelope text-2xl gold-accent mr-4"></i>
+<div>
+<div class="font-semibold">Email</div>
+<a href="mailto:info@singhaviation.com" class="text-blue-200 hover:text-white transition duration-300">
+info@singhaviation.com
+
+</a>
+</div>
+</div>
+
+<div class="space-y-4">
+<div class="flex items-center">
+<i class="fas fa-envelope text-2xl gold-accent mr-4"></i>
+<div>
+<div class="font-semibold">Contact Number</div>
+<a href="tel:+918252294379" class="text-blue-200 hover:text-white transition duration-300">
+  +91 8252294379
+</a>
+
+
+</a>
+</div>
+</div>
+
+<div class="flex items-center">
+<i class="fas fa-clock text-2xl gold-accent mr-4"></i>
+<div>
+<div class="font-semibold">Address</div>
+<div class="text-blue-200">Old HAL Airport Road , Bengaluru , Karnataka </div>
+</div>
+</div>
+
+
+<div class="flex items-center">
+<i class="fas fa-globe text-2xl gold-accent mr-4"></i>
+<div>
+<div class="font-semibold">Service Areas</div>
+<div class="text-blue-200">Worldwide Destinations</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="bg-gray-50 p-8 rounded-lg">
+<h3 class="font-playfair text-2xl font-bold text-blue-800 mb-4">Empty Leg Alerts</h3>
+<p class="text-gray-700 mb-4">
+Subscribe to receive notifications about discounted Empty Leg flights on your preferred routes.
+</p>
+<div class="space-y-4">
+<input type="email" placeholder="Your email address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+<button class="w-full bg-blue-800 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
+<i class="fas fa-bell mr-2"></i>
+Subscribe to Alerts
+</button>
+</div>
+</div>
+
+<div class="bg-white p-8 rounded-lg card-shadow">
+<h3 class="font-playfair text-2xl font-bold text-blue-800 mb-4">Quick Response</h3>
+<p class="text-gray-700 mb-4">
+Our team typically responds to quote requests within 30 minutes during business hours and within 2 hours for after-hours inquiries.
+</p>
+<div class="flex items-center text-gold-accent">
+<i class="fas fa-clock mr-2"></i>
+<span class="font-semibold">Average response time: 30 minutes</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white section-padding">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-8 mb-8">
+<div>
+<div class="flex items-center mb-4">
+<i class="fas fa-plane text-2xl gold-accent mr-3"></i>
+<span class="font-playfair text-xl font-bold">Singh Aviation</span>
+</div>
+<p class="text-gray-400 mb-4">
+Elevating private aviation with luxury, safety, and exceptional service. Your journey begins with us.
+</p>
+<a href="https://www.instagram.com/singhaviation.1" target="_blank" 
+   class="text-gray-400 hover:text-gold-accent transition duration-300">
+  <i class="fab fa-instagram text-3xl"></i>
+</a>
+
+</a>
+</div>
+</div>
+
+<div>
+<h4 class="text-lg font-bold mb-4">Services</h4>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#services" class="hover:text-gold-accent transition duration-300">On-Demand Charter</a></li>
+<li><a href="#services" class="hover:text-gold-accent transition duration-300">Business Travel</a></li>
+<li><a href="#services" class="hover:text-gold-accent transition duration-300">Leisure Flights</a></li>
+<li><a href="#empty-legs" class="hover:text-gold-accent transition duration-300">Empty Legs</a></li>
+<li><a href="#services" class="hover:text-gold-accent transition duration-300">Group Charter</a></li>
+</ul>
+</div>
+
+<div>
+<h4 class="text-lg font-bold mb-4">Fleet</h4>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#fleet" class="hover:text-gold-accent transition duration-300">Light Jets</a></li>
+<li><a href="#fleet" class="hover:text-gold-accent transition duration-300">Mid-Size Jets</a></li>
+<li><a href="#fleet" class="hover:text-gold-accent transition duration-300">Heavy Jets</a></li>
+<li><a href="#fleet" class="hover:text-gold-accent transition duration-300">Ultra-Long Range</a></li>
+</ul>
+</div>
+
+<div>
+  <h4 class="text-lg font-bold mb-4">Contact</h4>
+  <ul class="space-y-2 text-gray-400">
+    
+    <!-- Email -->
+    <li class="flex items-center">
+      <i class="fas fa-envelope mr-2 gold-accent"></i>
+      <a href="mailto:info@singhaviation.com" class="hover:text-gold-accent transition duration-300">
+        info@singhaviation.com
+      </a>
+    </li>
+
+    <!-- Phone -->
+    <li class="flex items-center">
+      <i class="fas fa-phone mr-2 gold-accent"></i>
+      <a href="tel:+918252294379" class="hover:text-gold-accent transition duration-300">
+        +91 8252294379
+      </a>
+    </li>
+
+    <!-- Service Hours -->
+    <li class="flex items-center">
+      <i class="fas fa-clock mr-2 gold-accent"></i>
+      <span>24/7 Service Available</span>
+    </li>
+    
+  </ul>
+</div>
+
+
+<div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+<p>&copy; 2025 Singh Aviation. All rights reserved. | Privacy Policy | Terms of Service | Safety Information</p>
+</div>
+</div>
+</footer>
+
+<script>
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+const target = document.querySelector(this.getAttribute('href'));
+if (target) {
+target.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+});
+});
+
+// Mobile menu functionality
+const mobileMenuButton = document.querySelector('.mobile-menu-button');
+if (mobileMenuButton) {
+mobileMenuButton.addEventListener('click', function() {
+// Mobile menu toggle functionality would go here
+console.log('Mobile menu clicked');
+});
+}
+
+// Form submission handling
+const forms = document.querySelectorAll('form');
+forms.forEach(form => {
+form.addEventListener('submit', function(e) {
+e.preventDefault();
+alert('Thank you for your interest! We will contact you shortly with your personalized quote.');
+});
+});
+
+// Add animation class to elements when they come into view
+const observerOptions = {
+threshold: 0.1,
+rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver(function(entries) {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.classList.add('animate-fade-in');
+}
+});
+}, observerOptions);
+
+// Observe sections for animation
+document.querySelectorAll('section').forEach(section => {
+observer.observe(section);
+});
+</script>
+<!-- WhatsApp Floating Button -->
+<a href="https://api.whatsapp.com/send?phone=918252294379" class="whatsapp_float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+         alt="WhatsApp"
+         class="whatsapp_icon">
+</a>
+
+</body>
+</html>
